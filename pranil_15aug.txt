@@ -1,7 +1,7 @@
 This is the content/notes of sigma 1s lecture and kindly check the 3 file's .
 modification it is referinf 2nd lecture.
 
- Client
+1) Client
 2) Server
 3) Browser
 
