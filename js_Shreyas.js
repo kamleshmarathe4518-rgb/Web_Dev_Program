@@ -5,5 +5,6 @@ if (userResponse) {
     // Add your code here for Yes action
 } else {
     console.log("User clicked No");
+    window.close();
     // Add your code here for No action
 }
