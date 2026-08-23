@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms-Learn Form.</title>
+</head>
+<body>
+    <h1>First learning form</h1>
+    <form action="post">
+
+        <label for="username">Enter your Username:</label>
+        <input type="text" id="username" name="username" placeholder="Enter your name" autofocus required>
+        <div>   
+            <label for="male">Male:</label>
+            <input type="radio" id="male" name="gender" value="male">
+        </div>
+        <div>
+            <label for="female">Female:</label>
+            <input type="radio" id="female" name="gender" value="female">
+        </div>
+
+        <div>   
+            <input type="checkbox" id="mechanical" name="mechanical" value="Bike">
+            <label for="mechanical"> Mechanical engineer or not ?</label>
+        </div>
+
+        <div>   
+            <label for="comment">comment Here</label>
+            <br>
+            <textarea name="comments" id="comment" cols="20" rows="20">
+            </textarea>
+        </div>
+
+        <div>   
+            <label for="cars">Choose a car:</label>
+            <select name="cars" id="cars">
+                <option value="volvo">Volvo</option>
+                <option value="saab">Saab</option>
+                <option value="mercedes">Mercedes</option>
+                <option value="audi">Audi</option>
+            </select>
+        </div>
+            
+
+    </form>
+</body>
+</html>
